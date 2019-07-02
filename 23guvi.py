@@ -1,3 +1,3 @@
-n=int(input())
-a=[int(i) for i in input().split()]
+a=int(input())
+k=[int(p) for p in input().split()]
 print(min(a))
