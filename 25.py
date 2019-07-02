@@ -1,0 +1,5 @@
+raf=int(input())
+daf=list(map(int,input().split()[:che]))
+daf.sort()
+quet=int((len(daf))/2)
+print(daf[quet])
